@@ -1,20 +1,22 @@
-<<<<<<< HEAD
-# notify_me
-=======
-# notify_me
+# Notify Me
 
-A new Flutter project.
+A demo app for azure notification hub, currently working only on android.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+These instructions will help you set up and run the project on your local machine.
 
-A few resources to get you started if this is your first Flutter project:
+Add a file called "config.dart" inside the lib folder.
+For more clearer instructions, follow the tutorial from microsoft.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### config.dart
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> f2d4a59 (pushed project)
+class Config {
+  static String apiKey = "YOUR_API_KEY";
+  static String backendServiceEndpoint =
+      "https://your_api_app_name.azurewebsites.net/";
+}
+
+### Guide
+
+Follow this [tutorial](https://learn.microsoft.com/en-us/azure/developer/mobile-apps/notification-hubs-backend-service-flutter#set-up-push-notification-services-and-azure-notification-hub) from microsoft.
