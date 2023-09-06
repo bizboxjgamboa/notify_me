@@ -1,0 +1,4 @@
+enum NotifyMeAction {
+  actionA,
+  actionB,
+}
