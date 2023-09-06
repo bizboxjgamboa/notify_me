@@ -11,11 +11,13 @@ For more clearer instructions, follow the tutorial from microsoft.
 
 ### config.dart
 
+```
 class Config {
   static String apiKey = "YOUR_API_KEY";
   static String backendServiceEndpoint =
       "https://your_api_app_name.azurewebsites.net/";
 }
+```
 
 ### Guide
 
